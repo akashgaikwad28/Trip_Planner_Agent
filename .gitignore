@@ -9,9 +9,10 @@ wheels/
 
 # Virtual environments
 .venv/
-.env/
+.env
 env/
 venv/
+llm/
 
 # IDE/editor files
 .vscode/
@@ -42,3 +43,6 @@ coverage.xml
 *.tmp
 *.swp
 *.lock
+
+# Offline bundle (if present)
+offline_bundle/
