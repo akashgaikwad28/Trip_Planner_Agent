@@ -1,48 +1,56 @@
-# Python-generated files
+# Python artifacts
 __pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+*.py[cod]
+*.pyo
+*.pyd
+*.so
 *.egg
+*.egg-info/
+dist/
+build/
+*.log
 
 # Virtual environments
-.venv/
-.env
 env/
-venv/
 llm/
+.venv/
+.uv/
 
-# IDE/editor files
+# IDE/editor configs
 .vscode/
 .idea/
-*.sublime-workspace
 *.sublime-project
+*.sublime-workspace
 
-# OS files
+# OS-specific
 .DS_Store
 Thumbs.db
 
-# Test and coverage reports
-htmlcov/
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.log
+# Environment variables
+.env
+.env.*
 
-# Jupyter Notebook checkpoints
+# Dependency and packaging
+*.lock
+poetry.lock
+Pipfile.lock
+
+# Jupyter notebooks
 .ipynb_checkpoints/
 
+# Streamlit
+.streamlit/
+
+# FastAPI static/media
+static/
+media/
+
+# pyproject.toml artifacts
+__pypackages__/
+
 # Misc
+*.sqlite3
+*.db
 *.bak
 *.tmp
 *.swp
-*.lock
-
-# Offline bundle (if present)
-offline_bundle/
